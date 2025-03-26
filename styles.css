@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "PT Sans", sans-serif;
     text-align: center;
     color: #fff;
     background: url('top-view-dishes-with-noodles-tomato-soup.jpg') no-repeat center center/cover;
@@ -16,7 +16,7 @@ body {
 }
 
 .hero h1 {
-    font-size: 2.5em;
+    font-size: 3.5em;
 }
 
 .hero button {
@@ -29,7 +29,7 @@ body {
 }
 .section-beneficios{
     padding: 200px;
-    opacity: 1;
+    opacity: 0.9;
     color: black;
     background-color: rgb(226, 226, 226);
 }
