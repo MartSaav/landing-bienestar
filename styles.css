@@ -152,4 +152,11 @@ footer {
     .section-beneficios, .section-plan, .section-consejos, .section-contactanos {
         padding: 50px 15px;
     }
+    h2::after {
+
+
+        width: 200px;
+        height: 4px;
+
+}
 }
