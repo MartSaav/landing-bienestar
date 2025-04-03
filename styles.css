@@ -75,7 +75,21 @@ header{
     border-radius: 5px;
     transition: 0.3s;
 }
+h2{
+    font-size: 35px;
 
+}
+
+/* Línea decorativa debajo del h2 */
+h2::after {
+    content: "";
+    display: block;
+    width: 600px;
+    height: 4px;
+    background-color: #ff9800;
+    margin: 10px auto;
+    border-radius: 2px;
+}
 .hero button:hover {
     background: #e68900;
 }
@@ -84,30 +98,37 @@ header{
     padding: 100px 20px;
     width: 100%;
     box-sizing: border-box;
+    
 }
 
 .section-beneficios {
     background-color: rgba(226, 226, 226, 0.738);
+    margin-top: 10px;
+    border-radius: 20px ;
     color: black;
 }
 
 .section-plan {
+    margin-top: 10px;
+    border-radius: 20px ;
     background: linear-gradient(to left, rgba(18, 14, 14, 0.7), grey);
     color: white;
 }
 
 .section-consejos {
     margin-top:  10px;
+    border-radius: 20px;
     margin-bottom: 10px;
-    background-color: rgba(51, 46, 46, 0.625);
+    background: linear-gradient(to left, rgba(18, 14, 14, 0.7), grey);
     border: px solid rgb(255, 255, 255);
     color: white;
 }
 
 .section-contactanos {
-    
+    border-radius: 20px;
+    margin-bottom: 10px;
     border: px solid white;
-    background-color: rgba(51, 46, 46, 0.625);
+    background: linear-gradient(to left, rgba(18, 14, 14, 0.7), grey);
     color: rgb(255, 255, 255);
 }
 
