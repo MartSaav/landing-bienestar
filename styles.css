@@ -1,3 +1,6 @@
+*{
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     scroll-behavior: smooth;
@@ -116,7 +119,7 @@ header{
     background: #ff9800;
     color: white;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 30px;
     transition: 0.3s;
 }
 h2{
@@ -135,7 +138,8 @@ h2::after {
     border-radius: 2px;
 }
 .hero button:hover {
-    background: #e68900;
+    background: #f1f0ef;
+    color: #000000;
 }
 
 .section-beneficios, .section-plan, .section-consejos, .section-contactanos {
