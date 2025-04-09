@@ -147,36 +147,53 @@ h2::after {
     width: 100%;
     box-sizing: border-box;
     
+    
 }
 
 .section-beneficios {
-    background-color: rgba(226, 226, 226, 0.738);
+    background-color: #fefefe;
     margin-top: 10px;
-    border-radius: 20px ;
+    border-radius: 10px ;
     color: black;
 }
+.clean-list  {
+    margin: 12px 0;
+    font-size: 1.1em;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.clean-list i {
+    font-size: 1.3em;
+    color: #ff9800;
+}
+
+
+
 
 .section-plan {
     margin-top: 10px;
     border-radius: 20px ;
-    background: linear-gradient(to left, rgba(18, 14, 14, 0.7), grey);
-    color: white;
+    background: none;
+    color: rgb(255, 255, 255);
 }
 
 .section-consejos {
     margin-top:  10px;
-    border-radius: 20px;
+    border-radius: 10px;
     margin-bottom: 10px;
-    background: linear-gradient(to left, rgba(18, 14, 14, 0.7), grey);
+    background: #f8f8f8;
     border: px solid rgb(255, 255, 255);
-    color: white;
+    color: #000000;
 }
 
 .section-contactanos {
     border-radius: 20px;
     margin-bottom: 10px;
     border: px solid white;
-    background: linear-gradient(to left, rgba(18, 14, 14, 0.7), grey);
+    background: none;
     color: rgb(255, 255, 255);
 }
 
