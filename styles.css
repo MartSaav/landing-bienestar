@@ -156,6 +156,7 @@ h2::after {
     border-radius: 10px ;
     color: black;
 }
+
 .clean-list p {
     margin: 12px 0;
     font-size: 1.1em;
@@ -176,8 +177,8 @@ h2::after {
 .section-plan {
     margin-top: 10px;
     border-radius: 20px ;
-    background: none;
-    color: rgb(255, 255, 255);
+    background: #eed273;
+    color: rgb(1, 1, 1);
 }
 
 .section-consejos {
@@ -193,8 +194,8 @@ h2::after {
     border-radius: 20px;
     margin-bottom: 10px;
     border: px solid white;
-    background: none;
-    color: rgb(255, 255, 255);
+    background:#f8e3a1;
+    color: rgb(0, 0, 0);
 }
 
 footer {
