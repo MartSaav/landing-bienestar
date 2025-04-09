@@ -153,7 +153,7 @@ h2::after {
 .section-beneficios {
     background-color: #fefefe;
     margin-top: 10px;
-    border-radius: 10px ;
+    border-radius: 0px ;
     color: black;
 }
 
@@ -176,14 +176,14 @@ h2::after {
 
 .section-plan {
     margin-top: 10px;
-    border-radius: 20px ;
+    border-radius: 0px ;
     background: #eed273;
     color: rgb(1, 1, 1);
 }
 
 .section-consejos {
     margin-top:  10px;
-    border-radius: 10px;
+    border-radius: 0px;
     margin-bottom: 10px;
     background: #f8f8f8;
     border: px solid rgb(255, 255, 255);
@@ -191,7 +191,7 @@ h2::after {
 }
 
 .section-contactanos {
-    border-radius: 20px;
+    border-radius: 0px;
     margin-bottom: 10px;
     border: px solid white;
     background:#f8e3a1;
