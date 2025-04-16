@@ -220,16 +220,16 @@ h2::after {
 
 
 .section-plan {
-    margin-top: 10px;
+    margin-top: 0px;
     border-radius: 0px ;
     background: #eed273;
     color: rgb(1, 1, 1);
 }
 
 .section-consejos {
-    margin-top:  10px;
+    margin-top:  0px;
     border-radius: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     background: #f8f8f8;
     border: px solid rgb(255, 255, 255);
     color: #000000;
@@ -237,7 +237,7 @@ h2::after {
 
 .section-contactanos {
     border-radius: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     border: px solid white;
     background:#f8e3a1;
     color: rgb(0, 0, 0);
